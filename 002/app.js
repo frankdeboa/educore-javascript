@@ -41,3 +41,23 @@ console.log(typeof carros)
 
 let pessoa = {'nome':'frank', 'idade':37}
 console.log(typeof pessoa)
+
+document.getElementById("titulo").style.backgroundColor = "lightgreen"
+console.log(document.getElementById("titulo"))
+document.getElementById("titulo").innerText = "Melhor Sabor"
+let titulodapagina
+titulodapagina = document.getElementById("titulo").innerText
+console.log(titulodapagina)
+
+let elementoSubtitulo
+elementoSubtitulo = document.getElementById("subtitulo")
+console.log(elementoSubtitulo)
+elementoSubtitulo.style.backgroundColor = "lightgreen"
+elementoSubtitulo.innerHTML = "<em>Seu restaurante Certo</em>"
+
+console.table(elementoSubtitulo)
+
+let frutas = ["🍕","🍔","🍟"]
+console.log(frutas)
+console.dir(frutas)
+console.table(frutas)
