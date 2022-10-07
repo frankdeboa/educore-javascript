@@ -61,3 +61,12 @@ let frutas = ["🍕","🍔","🍟"]
 console.log(frutas)
 console.dir(frutas)
 console.table(frutas)
+
+document.write("<h3>Cardápio</h3>")
+document.write(frutas)
+
+alert("Bom dia, seja bem vindo ao meu site")
+let nomecompleto = prompt("Qual seu nome?","Digite aqui")
+
+alert("Olá " + nomecompleto + "seja benvindo")
+document.write("<br>nome: " + nomecompleto)
