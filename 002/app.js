@@ -70,3 +70,5 @@ let nomecompleto = prompt("Qual seu nome?","Digite aqui")
 
 alert("Olá " + nomecompleto + "seja benvindo")
 document.write("<br>nome: " + nomecompleto)
+
+aula
