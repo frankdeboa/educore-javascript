@@ -31,3 +31,52 @@ document.write((n1 == "10") + "<br>")
 let n3 = "10"
 document.write((n1 == n3) + "<br>")
 document.write((n1 === n3))
+
+/*Operadores lógicos
+Todas as expressões devem ser verdadeiras para retornar verdadeiro
+
+10 > 5 --> True
+10 > 20 --> False
+10 > 5 && 10 > 20 --> False
+*/
+
+document.write("<br><br><br>")
+document.write(10>5 && 10>20)
+document.write("<br>")
+
+
+/*
+|| --> OR ou
+Se uma expressão for verdadeira, o retorno é verdadeiro
+*/
+
+document.write(10>5 || 10>20)
+document.write("<br>")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
